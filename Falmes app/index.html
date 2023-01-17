@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flames</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flexCenter">
+    <div class="card flexCenter flexColumn">
+        <!-- <img src="assets/logo.png" class="logo" alt="The Code Man"/> -->
+
+        <div id="mainInterface" class="flexCenter flexColumn">
+            <h3 style="color: palevioletred;">ILTHAKKASAIYA</h3>
+            <div class="flexCenter flexColumn">
+                <img src="assets/king.png" class="textImage" alt=""/>   
+                <input id="kingName" class="form-control" type="text" placeholder="King"/>
+                <!-- <img src="assets/kingM.png" class="textImage"/>          -->
+            </div><br>
+
+            <div class="flexCenter flexColumn">
+                <img src="assets/queen.jpg" class="textImage" alt=""/>   
+                <input id="queenName" class="form-control" type="text" placeholder="Queen"/>
+                <!-- <img src="assets/necklase.png" class="textImage"/>          -->
+            </div><br>
+
+            <button class="btn btn-success" onclick="predict()">Predict</button>
+        </div>
+
+        <p id="result" class="result">
+            
+        </p>
+        <img class="resultImage" id="resultImage"/>
+
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
